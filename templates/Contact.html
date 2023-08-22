@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<main class="form-signin w-100 m-auto text-center">
+    <form style="margin-left: 350px; margin-right: 350px;" method="post">
+
+        <h1 class="h3 mb-3 fw-normal" style="margin-top: 20px;">Get In Touch</h1>
+        <div class="row">
+            <div class="col">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="name@example.com" name="name">
+                    <label for="floatingInput">Full Name</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+                    <label for="floatingInput">Email address</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-floating" style="margin-top: 10px;">
+            <input type="text" class="form-control" id="message" placeholder="Message" name="message">
+            <label for="floatingPassword">Message</label>
+        </div>
+
+        <div class="checkbox mb-3">
+            <label>
+
+            </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
+        <p class="mt-5 mb-3 text-muted">&copy; </p>
+    </form>
+</main>
+
+
+
+{% endblock %}
+
+
+
+</html>
